@@ -5,12 +5,7 @@ export interface Usuario {
     gender:string;
     age:number;
     email:string;
-    asignatura:[{
-        nombre:string,
-        diasTotales:number,
-        diasAsistidos:number,        
-
-    }];
+    asignatura:[];
     descripcion:string;
     carrera:string;
     sede:string;

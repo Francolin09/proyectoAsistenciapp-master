@@ -54,7 +54,7 @@ export class AlertPage implements OnInit {
 
   async presentAlertPrompt() {
     const alert = await this.alertController.create({
-      cssClass: 'my-custom-class',
+     
       header: 'Prompt!',
       inputs: [
         {

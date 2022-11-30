@@ -26,4 +26,9 @@ export class RegisterPage implements OnInit {
     this.servicio.enviarusuarios(this.listausuarios);
   }
 
+  inicioPage(){
+    this.router.navigate(['registro'])
+
+  }
+
 }
